@@ -25,7 +25,7 @@ input,select,textarea,img{vertical-align:middle;}
 #next a{  position:absolute; right:20px; top:143px; display:block; background:url(../images/ico/imgSlideRight.png) no-repeat; width:104px; height:104px; display:none;}
 
 #cbtn{height:74px;padding: 5px 30px;overflow: hidden;position:relative;}
-#cSlideUl{position:relative;background: #fff;overflow: hidden;}
+#cSlideUl{position:relative;overflow: hidden;}
 #cbtn ul{position:relative; width:10000px;}
 #cbtn ul li{float:left;width:92px;height:100%;border:2px solid #EAEBF0;margin-right: 5px; cursor:pointer; text-align:center;  position:relative;overflow: hidden;}
 #cbtn ul li img{ width:92px; height:60px;}

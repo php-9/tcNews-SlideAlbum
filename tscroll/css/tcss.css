@@ -1,0 +1,41 @@
+@charset "utf-8";
+*{margin: 0;padding: 0;}
+img{ border:0;}
+ul,li{list-style-type:none;}
+a {
+    text-decoration: none;
+    outline: none;
+  
+}
+body{font-size:12px;}
+input,select,textarea,img{vertical-align:middle;}
+#picSlideWrap{width: 540px;background:#EAEBF0;}
+.imgnav{position:relative;}
+
+#img{height:390px; z-index:10;position:relative; text-align:center; overflow: hidden;}
+#img i{
+	width: 0;
+	display:inline-block;
+    height:100%;
+    vertical-align:middle
+}
+#img img{display:none;max-width: 100%;max-height: 100%;vertical-align: middle;}
+#front{ position:absolute; left:0px; top:0px; z-index:10; cursor:pointer;width:270px; height:390px; background:url(../images/ico/blank.gif); }
+#front a{  position:absolute; left:20px; top:143px;display:block; background:url(../images/ico/imgSlideLeft.png) no-repeat; width:104px; height:104px; display:none;}
+#next{  position:absolute; right:0px; top:0px; z-index:10;cursor:pointer;width:270px; height:390px;  background:url(../images/ico/blank.gif);}
+#next a{  position:absolute; right:20px; top:143px; display:block; background:url(../images/ico/imgSlideRight.png) no-repeat; width:104px; height:104px; display:none;}
+
+#cbtn{height:74px;padding: 5px 30px; background:#EAEBF0; position:relative; overflow: hidden; }
+#cSlideUl{width:100%;height: 100%; overflow:hidden; position:relative;}
+#cbtn ul{position:relative; width:10000px;overflow: hidden;}
+#cbtn ul li{float:left;width:98px;height:62px;border: 1px solid #EAEBF0; margin: 0  3px; cursor:pointer; text-align:center;  position:relative;overflow: hidden;}
+#cbtn ul li img{ width:98px; height:62px; display:block;overflow: hidden;}
+#cbtn ul li tt{display: none; background:#000; color:#FFF; position:absolute; right:4px; bottom:4px; z-index:20; font-family:"宋体" ;font-size:12px; line-height:16px; padding:0 5px;}
+#cbtn li.hov{border: 1px solid #f60;}
+.ctrl div{ clear:both;}
+
+.picSildeLeft{cursor:pointer; position:absolute; top:5px; left:5px; z-index:9;}
+.picSildeRight{cursor:pointer; position:absolute; top:5px; right:5px; z-index:9;}
+
+
+
